@@ -1,0 +1,75 @@
+.navbar{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.navbar-brand{
+    margin-left: 200px;
+}
+
+.collapse{
+    margin-left: 550px;
+}
+
+.container{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.img{
+    height: 450px;
+}
+
+.aboutme{
+    margin-top: 100px;
+}
+
+.feauters{
+    margin-top: 200px;
+    background-image: url(/images/Apple-Watch-Ultra-Apps-scaled.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.feauters div{
+    padding-top: 250px;
+    margin-left: 600px;
+}
+
+@media only screen and (min-height:700px) and (min-width:450px) {
+    .header{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .aboutme{
+        flex-direction: column;
+    }
+    .navbar-expand-lg{
+        width: 450px;
+        position: fixed;
+        z-index: 2;
+    }
+    .feauters{
+        width: 450px;
+        height: 450px;
+    }
+    .feauters-text{
+        width: 450px;
+        height: 450px;
+        padding-right: 450px;
+    }
+    .collapse{
+        padding-right: 400px;
+    }
+}
